@@ -1,0 +1,17 @@
+﻿Imagine 2 people are playing a game and the rule is the first person to cross the bridge wins $100, but if 2 people are one the bridge at
+the same time it will break and both players will die.
+
+
+Both players will have the same plan, because they are rational. Their plan will be to cross the bridge while there is no one else on it.
+
+
+If player 1 is faster and starts crossing first, player 2 will not change his plan. he will not try to cross at the same time,
+because then he will die and will never be able to win $100.
+
+
+If player 1 isn't able to get to the bridge first, player 2 will follow his plan and cross while there is no one on it. If he changes his plan
+and decides to wait a bit player 2 might be able to cross before him and win the money.
+
+
+Whenever there is a situation with 2 or more people and no one will change their strategy depending on what the others do,
+the chosen strategies are part of something called a Nash equilibrium.

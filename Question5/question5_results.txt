@@ -1,0 +1,9 @@
+Testing v1
+input: 0, output: None, expected output: False
+input: 1, output: None, expected output: False
+input: 2, output: None, expected output: True
+
+Testing v2
+input: 0, output: True, expected output: False
+input: 1, output: True, expected output: False
+
