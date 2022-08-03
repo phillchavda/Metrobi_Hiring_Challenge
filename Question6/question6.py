@@ -1,4 +1,8 @@
-
+#   Challenge: Write a program that takes a screenshot of https://metrobi.com/ and saves it as a PNG
+# image file. Then, searches the image for the Metrobi PNG logo (link) and returns the
+# coordinates of the sub-image on the screen, if found, measured from the top-left corner.
+# Do this for 1920x1080 (Desktop) and 640x1136 (iPhone 5) screen resolutions.
+# Do the same for https://deliver.metrobi.com/signin. Discuss the results.
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
@@ -29,14 +33,14 @@ driver.quit()
 pc_dim = (1920, 1080) #width, hight
 iphone_dim = (640, 1136) 
 
-logo_dim_signin_pc = (1200,200) #good 
-logo_dim_signin_iphone = (380, 180) #not good-> to much width
+logo_dim_signin_pc = (1200,200)
+logo_dim_signin_iphone = (380, 180) 
 
-logo_dim_site_pc = (255,60)#bad-> too big
-logo_dim_site_iphone = (93,45)#terrible -> finding huge logo
+logo_dim_site_pc = (255,60)
+logo_dim_site_iphone = (93,45)
 
 
-#import metrobi screenshots as greyscale
+#import metrobi screenshots
 ss_signin = cv2.imread('ss_metrobi_signin.png')
 ss_site =  cv2.imread('ss_metrobi.png') 
 

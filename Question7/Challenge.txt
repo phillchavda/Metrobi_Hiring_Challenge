@@ -1,0 +1,6 @@
+    Challenge: Clone this project https://github.com/Ibaslogic/react-todo-project and write an end-to-end
+(E2E) test for the most important parts using https://www.cypress.io/.
+    Solution: through the terminal go to the react-todo-project directory and host the web page by using the comand "npm start".
+Then, through another terminal, go to the cypess directory and use the comand "npx cypress open" to be able to use cypess to test the
+web pages functionalities. Once you open cypress, click "E2E testing", select a browser (Google Chrome works best), click "start E2E testing"
+and then select the code that will be used to test the initial web page. In this case the code is spec.cy.js

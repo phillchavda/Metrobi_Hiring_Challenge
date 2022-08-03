@@ -1,3 +1,10 @@
+#   Challenge: Run the python script at the repo https://github.com/caioluciofc/metrobi_challenge and
+# get the answer of the cipher.
+#   Answer: by running the script with the comand "python challenge.py" you end up getting a url to the
+# root directory of the web page the the code creates a host for. If we click the url link and follow the path 
+# above the "challenge" function (line 16) The code in the challenge function will run. We can see that the only
+# haking key that gives us any actual words is the key 4, so that is the only key that can decipher the encrypted message.
+
 from flask import Flask
 app = Flask(__name__)
 

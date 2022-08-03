@@ -1,0 +1,2 @@
+Solve the excel challenge that you can find on the repo:
+https://github.com/caioluciofc/metrobi_challenge

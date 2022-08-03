@@ -1,4 +1,6 @@
-﻿Imagine 2 people are playing a game and the rule is the first person to cross the bridge wins $100, but if 2 people are one the bridge at
+﻿Challenge: Present and explain the concept of “Nash Equilibrium” in such a way that a 5-year-old can understand what it means.
+
+Imagine 2 people are playing a game and the rule is the first person to cross the bridge wins $100, but if 2 people are one the bridge at
 the same time it will break and both players will die.
 
 
